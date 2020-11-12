@@ -117,8 +117,8 @@ header .container div a{
   height: 1200px;
 }
 
+/* slogan */
 .slogan{
-  height: 300px;
   border-bottom: 1px solid #152238;
   text-align: center;
   padding: 40px 400px;
@@ -129,6 +129,9 @@ header .container div a{
   font-size: 25px;
   margin-bottom: 20px;
 }
+/* /slogan */
+
+
 
 /* /main */
 
