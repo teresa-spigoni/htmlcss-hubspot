@@ -50,7 +50,7 @@ header{
 .header-top{
   width: 100%;
   background: #ccc;
-  border-bottom: 2px solid darkblue;
+  border-bottom: 2px solid #152238;
 }
 
 .header-bottom{
@@ -65,7 +65,7 @@ header .container div{
 
 header .container div a{
   text-decoration: none;
-  color: darkblue;
+  color: #152238;
 }
 
 #lang{
@@ -73,7 +73,7 @@ header .container div a{
 }
 
 #contacts{
-  border-left: 2px solid darkblue;
+  border-left: 2px solid #152238;
   padding-left: 20px;
 }
 
@@ -92,11 +92,11 @@ header .container div a{
   background-repeat: no-repeat;
   background-position: bottom -90px right 0;
   height: 500px;
-  border-bottom: 2px solid darkblue;
+  border-bottom: 2px solid #152238;
 }
 
 .jumbotron-content{
-  color: darkblue;
+  color: #152238;
   width: 500px;
   padding-top: 50px;
 }
@@ -105,6 +105,30 @@ header .container div a{
   margin: 20px 0;
 }
 /* jumbotron */
+
+.space{
+  height: 100px;
+  background: #b9f9e5;
+  border-bottom: 2px solid #152238;
+}
+
+.grey-container{
+  background: #ccc;
+  height: 1200px;
+}
+
+.slogan{
+  height: 300px;
+  border-bottom: 1px solid #152238;
+  text-align: center;
+  padding: 40px 400px;
+  color: #152238;
+}
+
+.slogan h3{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
 
 /* /main */
 
