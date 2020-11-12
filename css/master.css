@@ -23,4 +23,55 @@
 .fr{
   float: right;
 }
+
+.button{
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.button-a{
+  border: 1px solid orange;
+}
+
+.button-b{
+  background: orange;
+}
 /* /utility classes */
+
+header{
+  width: 100%;
+}
+
+.header-top{
+  width: 100%;
+  background: #ccc;
+  border-bottom: 2px solid darkblue;
+}
+
+.header-bottom{
+  width: 100%;
+  background: #fff;
+}
+
+header .container div{
+  display: inline-block;
+  padding: 15px 0;
+}
+
+header .container div a{
+  text-decoration: none;
+  color: darkblue;
+}
+
+#lang{
+  padding-right: 20px;
+}
+
+#contacts{
+  border-left: 2px solid darkblue;
+  padding-left: 20px;
+}
+
+.header-bottom .container div a{
+  padding-left: 20px;
+}
