@@ -29,15 +29,20 @@
   padding: 10px 20px;
 }
 
-.button-a{
+.button-type-a{
   border: 1px solid orange;
 }
 
-.button-b{
+.button-type-b{
   background: orange;
+}
+
+.big-container{
+  width: 100%;
 }
 /* /utility classes */
 
+/* header */
 header{
   width: 100%;
 }
@@ -75,3 +80,34 @@ header .container div a{
 .header-bottom .container div a{
   padding-left: 20px;
 }
+/* /header */
+
+/* main */
+
+/* jumbotron */
+.jumbotron-container{
+  width: 100%;
+  background-image: url("../img/jumbotron.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom -90px right 0;
+  height: 500px;
+  border-bottom: 2px solid darkblue;
+}
+
+.jumbotron-content{
+  color: darkblue;
+  width: 500px;
+  padding-top: 50px;
+}
+
+.jumbotron-content p{
+  margin: 20px 0;
+}
+/* jumbotron */
+
+/* /main */
+
+/* footer */
+
+/* /footer */
