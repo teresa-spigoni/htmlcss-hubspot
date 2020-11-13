@@ -70,6 +70,7 @@ body{
   border-left: 1px solid #fff;
   text-align: center;
   padding: 20px 0;
+  color: #fff;
 }
 /* /utility classes */
 
@@ -233,6 +234,7 @@ header .container div a{
 .gradient-container .container:first-child{
   text-align: center;
   padding-bottom: 60px;
+  color: #fff;
 }
 
 .box:first-child, .box:nth-child(5){
@@ -241,6 +243,15 @@ header .container div a{
 
 .box:nth-child(5), .box:nth-child(6), .box:nth-child(7), .box:nth-child(8){
   border-bottom: none;
+}
+
+.box img{
+  margin-bottom: 20px;
+}
+
+.white-container{
+  background-color: #fff;
+  height: 700px;
 }
 
 /* /main */
