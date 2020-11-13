@@ -5,7 +5,6 @@
 }
 
 /* utility classes */
-
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -13,11 +12,12 @@ body{
 .container{
   width: 1200px;
   margin: 0 auto;
-  color: #152238;
+  color: #33475b;
 }
 
 .container div a{
   text-decoration: none;
+  padding-left: 20px;
 }
 
 .clearfix::after{
@@ -80,15 +80,12 @@ body{
 /* /utility classes */
 
 /* header */
-
 .header-top{
-  width: 100%;
-  background: #d6dbe0;
-  border-bottom: 2px solid #152238;
+  background: #f4f9fd;
+  border-bottom: 1px solid #70808d;
 }
 
 .header-bottom{
-  width: 100%;
   background: #fff;
 }
 
@@ -98,7 +95,11 @@ header .container div{
 }
 
 header .container div a{
-  color: #152238;
+  color: #33475b;
+}
+
+header img{
+  padding-top: 10px;
 }
 
 #lang{
@@ -106,26 +107,21 @@ header .container div a{
 }
 
 #contacts{
-  border-left: 2px solid #152238;
+  border-left: 3px solid #33475b;
   padding-left: 20px;
 }
 
 #login{
   color: #dd571c;
+  margin: 0 20px;
 }
 
 #gethub{
   color: #fff;
 }
-
-.header-bottom .container div a{
-  padding-left: 20px;
-}
 /* /header */
 
 /* main */
-
-/* jumbotron */
 .jumbotron-container{
   background: #fff4ef;
   background-image: url("../img/jumbotron.png");
@@ -148,109 +144,123 @@ header .container div a{
 }
 
 .jumbotron-content{
-  color: #152238;
-  width: 500px;
-  padding-top: 50px;
+  width: 600px;
+  padding-top: 70px;
+}
+
+.jumbotron-content h1{
+  font-size: 50px;
 }
 
 .jumbotron-content p{
-  margin: 20px 0;
-}
-/* jumbotron */
-
-.space{
-  height: 100px;
-  background: #b9f9e5;
-  border-bottom: 2px solid #152238;
+  margin: 40px 0;
 }
 
 .grey-container{
-  background: #d6dbe0;
-  padding-bottom: 40px;
+  background: #f4f9fd;
+  padding-bottom: 50px;
 }
 
-/* slogan */
 .slogan{
   text-align: center;
-  padding: 40px 200px;
-  color: #152238;
+  padding: 50px 200px;
 }
 
 .slogan h3{
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
-/* /slogan */
-.freehubspot{
+
+.horizontal-box{
   padding: 30px 0;
 }
 
-.freehubspot .fl{
+.horizontal-box .fl{
   width: 30%;
-  padding: 30px 20px;
+  padding: 40px 20px;
   text-align: center;
   margin-left: 50px;
 }
 
-.freehubspot .fl img{
-  margin-bottom: 20px;
-}
-
-.freehubspot .fr{
+.horizontal-box .fr{
   width: 60%;
-  padding: 10px 20px;
-  padding-right: 200px;
+  padding: 20px 200px 40px 20px;
 }
 
-.freehubspot .fr h4{
-  font-size: 18px;
+.horizontal-box .fl img{
   margin-bottom: 20px;
 }
 
-.freehubspot .fr h5, .freehubspot .fr p{
-  margin-bottom: 10px;
+.horizontal-box .fr h4{
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 
-.freehubspot .fr hr{
-
+.horizontal-box .fr h5, .freehubspot .fr p{
+  margin-bottom: 20px;
 }
-.freehubspot .fr img{
-  vertical-align: middle;
+
+.horizontal-box .fr h5{
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+.horizontal-box .fr img{
+  vertical-align: top;
 }
 
 .columns-container{
   padding-top: 80px;
 }
 
-.popolar-feature{
-  text-align: left;
+.column img, .column h4, .column hr, .column h5{
+  margin-bottom: 20px;
 }
 
 .second-column{
   margin: 0 75px;
 }
 
-.column img, .column h4, .column hr, .column h5{
-  margin-bottom: 20px;
+.column h4{
+  font-size: 20px;
+}
+
+.column h5{
+  font-size: 17px;
+  padding: 15px 0;
 }
 
 .column p{
   margin-bottom: 40px;
 }
 
+.popolar-feature{
+  text-align: left;
+}
+
 .column img{
   vertical-align: top;
 }
 
+.learn{
+  padding: 40px 0 15px 0;
+  text-align: center;
+}
+
 .gradient-container{
-  background-color: lightblue;
-  padding: 60px 0;
+  background-image: linear-gradient(to right, #00a4bc, #00bca5);
+  padding: 60px 0 120px 0;
 }
 
 .gradient-container .container:first-child{
   text-align: center;
   padding-bottom: 60px;
   color: #fff;
+}
+
+.gradient-container .container:first-child h3{
+  padding: 0 100px 40px 100px;
+  font-size: 30px;
 }
 
 .box:first-child, .box:nth-child(5){
@@ -261,8 +271,12 @@ header .container div a{
   border-bottom: none;
 }
 
-.box img{
-  margin-bottom: 20px;
+.box img, .box h2{
+  margin-bottom: 18px;
+}
+
+.box h2{
+  font-size: 34px;
 }
 
 .white-container{
@@ -273,7 +287,7 @@ header .container div a{
 .white-container .container:first-child .fl{
   width: 300px;
   padding: 0 40px;
-  margin-left: 100px;
+  margin-left: 60px;
 }
 
 .white-container .container:first-child .fl h2{
@@ -283,11 +297,13 @@ header .container div a{
 }
 
 .white-container .container:first-child .fr{
-  margin-right: 100px;
+  margin: 25px 100px 0 0;
 }
 
 .white-container .container:first-child .fr img{
   height: 30px;
+  margin-bottom: 30px;
+  padding-left: 25px;
 }
 
 .white-container .container:last-child{
@@ -295,13 +311,12 @@ header .container div a{
 }
 
 .white-container .container:last-child .fl{
-  width: 450px;
+  width: 500px;
   margin-top: 70px;
 }
 
-.white-container .container:last-child img{
-  height: 350px;
-  margin-right: 50px;
+.white-container .container:last-child h3{
+  font-size: 33px;
 }
 
 .white-container .container:last-child h3, .white-container .container:last-child p{
@@ -311,11 +326,16 @@ header .container div a{
 .white-container .container:last-child .fl div{
   margin-top: 30px;
 }
+
+.white-container .container:last-child img{
+  height: 350px;
+  margin-right: 50px;
+}
 /* /main */
 
 /* footer */
 footer .big-container{
-  background: #152238;
+  background: #33475b;
   padding: 50px 0;
 }
 
@@ -328,7 +348,22 @@ footer div a{
 }
 
 footer h3{
-  margin-bottom: 30px;
+  margin: 0 0 30px 20px;
+}
+
+footer .button{
+  background: #fff;
+  color: #33475b;
+}
+
+.footer-button{
+  margin-top: 40px;
+}
+
+footer i{
+  margin-top: 15px;
+  padding: 0 10px;
+  text-align: center;
 }
 
 footer .container:nth-child(2){
@@ -339,21 +374,23 @@ footer .container:nth-child(2){
 
 .language{
   display: inline-block;
-  padding: 0 20px 15px 20px;
+  padding: 0 2px 15px 2px;
 }
 
 footer .container:last-child{
   padding-top: 50px;
 }
 
+footer .container:last-child img{
+  height: 60px;
+  margin-top: -20px;
+}
+
+footer .container:last-child .fl a{
+  padding-left: 0;
+}
+
 footer .fr a{
   padding-left: 20px;
 }
-
-footer i{
-  margin-top: 15px;
-  padding: 0 10px;
-  text-align: center;
-}
-
 /* /footer */
