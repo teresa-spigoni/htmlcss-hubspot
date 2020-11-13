@@ -127,13 +127,24 @@ header .container div a{
 
 /* jumbotron */
 .jumbotron-container{
-  width: 100%;
+  background: #fff4ef;
   background-image: url("../img/jumbotron.png");
-  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: bottom -90px right 0;
-  height: 500px;
-  border-bottom: 2px solid #152238;
+  background-position: bottom right;
+  height: 695px;
+  position: relative;
+}
+
+.jumbotron-container:before{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: #afebe4;
+  height: 80px;
+  width: 100%;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
 }
 
 .jumbotron-content{
@@ -337,6 +348,12 @@ footer .container:last-child{
 
 footer .fr a{
   padding-left: 20px;
+}
+
+footer i{
+  margin-top: 15px;
+  padding: 0 10px;
+  text-align: center;
 }
 
 /* /footer */
