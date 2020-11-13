@@ -251,11 +251,53 @@ header .container div a{
 
 .white-container{
   background-color: #fff;
-  height: 700px;
+  padding: 50px 0;
 }
 
+.white-container .container:first-child .fl{
+  width: 300px;
+  padding: 0 40px;
+  margin-left: 100px;
+}
+
+.white-container .container:first-child .fl h2{
+  font-size: 40px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+
+.white-container .container:first-child .fr{
+  margin-right: 100px;
+}
+
+.white-container .container:first-child .fr img{
+  height: 30px;
+}
+
+.white-container .container:last-child{
+  margin-top: 50px;
+}
+
+.white-container .container:last-child .fl{
+  width: 450px;
+  margin-top: 70px;
+}
+
+.white-container .container:last-child img{
+  height: 350px;
+  margin-right: 50px;
+}
+
+.white-container .container:last-child h3, .white-container .container:last-child p{
+  margin-bottom: 30px;
+}
+
+.white-container .container:last-child .fl div{
+  margin-top: 30px;
+}
 /* /main */
 
 /* footer */
+
 
 /* /footer */
