@@ -35,6 +35,7 @@ body{
 
 .button{
   border-radius: 5px;
+  color: #fff;
 }
 
 .button-type-a{
@@ -44,13 +45,11 @@ body{
 
 .button-type-b{
   background: #fe775a;
-  color: #fff;
   padding: 12px 10px;
 }
 
 .button-type-c{
   background: #fe775a;
-  color: #fff;
   padding: 20px 40px;
 }
 
@@ -129,7 +128,7 @@ header img{
 }
 
 #login{
-  color: #dd571c;
+  color: #fe775a;
   margin: 0 20px;
 }
 
