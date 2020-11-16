@@ -193,10 +193,9 @@ header img{
 }
 
 .horizontal-box .fl{
-  width: 30%;
+  width: 40%;
   padding: 40px 20px;
   text-align: center;
-  margin-left: 50px;
 }
 
 .horizontal-box .fr{
@@ -218,7 +217,8 @@ header img{
 }
 
 .horizontal-box .fr h5{
-  margin-top: 20px;width: 100%;
+  margin-top: 20px;
+  width: 100%;
   font-size: 19px;
   line-height: 20px;
 }
@@ -276,7 +276,7 @@ header img{
 }
 
 .gradient-container{
-  background-image: linear-gradient(to right, #00a4bc, #00bca5);
+  background: linear-gradient(45deg, #00a4bc, #00bca5);
   padding: 60px 0 120px 0;
 }
 
@@ -312,9 +312,8 @@ header img{
 }
 
 .white-container .container:first-child .fl{
-  width: 300px;
-  padding: 20px 40px 0 0;
-  margin-left: 60px;
+  width: 35%;
+  padding: 20px 0 0 60px;
 }
 
 .white-container .container:first-child .fl h2{
@@ -324,7 +323,8 @@ header img{
 }
 
 .white-container .container:first-child .fr{
-  margin: 25px 100px 0 0;
+  width: 65%;
+  padding-top: 20px;
 }
 
 .white-container .container:first-child .fr img{
