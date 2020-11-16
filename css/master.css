@@ -38,18 +38,18 @@ body{
 }
 
 .button-type-a{
-  border: 1px solid #dd571c;
+  border: 1px solid #fe775a;
   padding: 10px;
 }
 
 .button-type-b{
-  background: #dd571c;
+  background: #fe775a;
   color: #fff;
   padding: 12px 10px;
 }
 
 .button-type-c{
-  background: #dd571c;
+  background: #fe775a;
   color: #fff;
   padding: 20px 40px;
 }
@@ -73,11 +73,17 @@ body{
 
 .box{
   width: 25%;
-  border-bottom: 1px solid #fff;
-  border-left: 1px solid #fff;
   text-align: center;
   padding: 20px 0;
   color: #fff;
+}
+
+.border-r{
+  border-right: 1px solid #fff;
+}
+
+.border-b{
+  border-bottom: 1px solid #fff;
 }
 
 .footer-column{
@@ -285,14 +291,6 @@ header img{
   font-size: 30px;
 }
 
-.box:first-child, .box:nth-child(5){
-  border-left: none;
-}
-
-.box:nth-child(5), .box:nth-child(6), .box:nth-child(7), .box:nth-child(8){
-  border-bottom: none;
-}
-
 .box img, .box h2{
   margin-bottom: 18px;
 }
@@ -308,12 +306,12 @@ header img{
 
 .white-container .container:first-child .fl{
   width: 300px;
-  padding: 0 40px;
+  padding: 20px 40px 0 0;
   margin-left: 60px;
 }
 
 .white-container .container:first-child .fl h2{
-  font-size: 40px;
+  font-size: 50px;
   padding-left: 10px;
   padding-bottom: 30px;
 }
@@ -323,9 +321,10 @@ header img{
 }
 
 .white-container .container:first-child .fr img{
-  height: 30px;
+  width: 160px;
   margin-bottom: 30px;
-  padding-left: 25px;
+  padding-left: 20px;
+  vertical-align: middle;
 }
 
 .white-container .container:last-child{
@@ -341,8 +340,16 @@ header img{
   font-size: 33px;
 }
 
-.white-container .container:last-child h3, .white-container .container:last-child p{
-  margin-bottom: 30px;
+.white-container .container:last-child h3{
+  padding-bottom: 50px;
+}
+
+.white-container .container:last-child p{
+  padding-bottom: 60px;
+}
+
+.white-container .container:last-child .fl div{
+  padding-top: 30px;
 }
 
 .white-container .container:last-child .fl div{
