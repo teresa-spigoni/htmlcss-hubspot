@@ -50,6 +50,7 @@ body{
 
 .big-container{
   width: 100%;
+  min-width: 1200px;
 }
 
 .white-box{
@@ -107,7 +108,7 @@ header img{
 }
 
 #contacts{
-  border-left: 3px solid #33475b;
+  border-left: 1px solid #33475b;
   padding-left: 20px;
 }
 
@@ -196,7 +197,11 @@ header img{
   margin-bottom: 20px;
 }
 
-.horizontal-box .fr h5, .freehubspot .fr p{
+.horizontal-box .fr hr{
+  width: 300px;
+}
+
+.horizontal-box .fr h5, .horizontal-box .fr p{
   margin-bottom: 20px;
 }
 
