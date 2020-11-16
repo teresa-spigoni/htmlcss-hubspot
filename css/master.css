@@ -199,6 +199,7 @@ header img{
 
 .horizontal-box .fr hr{
   width: 300px;
+
 }
 
 .horizontal-box .fr h5, .horizontal-box .fr p{
@@ -206,8 +207,19 @@ header img{
 }
 
 .horizontal-box .fr h5{
+  margin-top: 20px;width: 100%;
   font-size: 19px;
-  margin-top: 20px;
+  line-height: 20px;
+}
+
+.horizontal-box .fr h5:before {
+  content: '';
+  display: block;
+  float: right;
+  width: 65%;
+  height: 2px;
+  margin-top: 9px;
+  background-color: #899397;
 }
 
 .horizontal-box .fr img{
