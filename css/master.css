@@ -85,6 +85,10 @@ body{
   border-bottom: 1px solid #fff;
 }
 
+.margin-b-20{
+  margin-bottom: 20px;
+}
+
 .footer-column{
   width: 25%;
   color: #fff;
@@ -242,10 +246,6 @@ header img{
 
 .columns-container{
   padding-top: 80px;
-}
-
-.column img, .column h4, .column hr, .column h5{
-  margin-bottom: 20px;
 }
 
 .second-column{
