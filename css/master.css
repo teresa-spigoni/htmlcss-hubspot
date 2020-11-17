@@ -114,6 +114,10 @@ header .container div a{
   padding-left: 20px;
 }
 
+.search i{
+  color: #007bff;
+}
+
 header img{
   padding-top: 10px;
 }
