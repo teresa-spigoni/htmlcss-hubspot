@@ -1,12 +1,16 @@
+/* search the utilities */
+
+/* Utility Classes */
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* utility classes */
-body{
-  font-family: 'Roboto', sans-serif;
+.big-container{
+  width: 100%;
+  min-width: 1200px;
 }
 
 .container{
@@ -15,14 +19,14 @@ body{
   color: #33475b;
 }
 
-.container div a{
-  text-decoration: none;
-}
-
 .clearfix::after{
   content: "";
   display: table;
   clear: both;
+}
+
+a{
+  text-decoration: none;
 }
 
 .fl{
@@ -53,21 +57,10 @@ body{
   padding: 20px 40px;
 }
 
-.big-container{
-  width: 100%;
-  min-width: 1200px;
-}
-
 .white-box{
   background: #fff;
   border-radius: 5px;
   box-shadow: 0px 0px 10px #eee;
-}
-
-.column{
-  padding: 20px 40px;
-  width: 350px;
-  text-align: center;
 }
 
 .box{
@@ -93,9 +86,8 @@ body{
   width: 25%;
   color: #fff;
 }
-/* /utility classes */
 
-/* header */
+/* Header Classes */
 .header-top{
   background: #f4f9fd;
   border-bottom: 1px solid #70808d;
@@ -118,12 +110,12 @@ header .container div a{
   padding-left: 20px;
 }
 
-.search i{
-  color: #007bff;
-}
-
 header img{
   padding-top: 10px;
+}
+
+.search i{
+  color: #007bff;
 }
 
 #lang{
@@ -143,9 +135,8 @@ header img{
 #gethub{
   color: #fff;
 }
-/* /header */
 
-/* main */
+/* Main Classes */
 .jumbotron-container{
   background: #fff4ef;
   background-image: url("../img/jumbotron.png");
@@ -153,18 +144,6 @@ header img{
   background-position: bottom right;
   height: 695px;
   position: relative;
-}
-
-.jumbotron-container:before{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  content: "";
-  background: #afebe4;
-  height: 80px;
-  width: 100%;
-  border-top: 3px solid #33475b;
-  border-bottom: 3px solid #33475b;
 }
 
 .jumbotron-content{
@@ -180,7 +159,21 @@ header img{
   margin: 40px 0;
 }
 
-.grey-container{
+.jumbotron-container:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: #afebe4;
+  height: 80px;
+  width: 100%;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+}
+
+/* ------------------------------------ */
+
+.main-section-two{
   background: #f4f9fd;
   padding-bottom: 50px;
 }
@@ -195,42 +188,42 @@ header img{
   margin-bottom: 20px;
 }
 
-.horizontal-box{
+.crm-box{
   padding: 30px 0;
 }
 
-.horizontal-box .fl{
+.crm-box .fl{
   width: 40%;
   padding: 40px 20px;
   text-align: center;
 }
 
-.horizontal-box .fr{
+.crm-box .fl img{
+  margin-bottom: 20px;
+}
+
+.crm-box .fr{
   width: 60%;
   padding: 20px 200px 40px 20px;
 }
 
-.horizontal-box .fl img{
-  margin-bottom: 20px;
-}
-
-.horizontal-box .fr h4{
+.crm-box .fr h4{
   font-size: 22px;
   margin-bottom: 20px;
 }
 
-.horizontal-box .fr h5, .horizontal-box .fr p{
+.crm-box .fr h5, .crm-box .fr p{
   margin-bottom: 20px;
 }
 
-.horizontal-box .fr h5{
+.crm-box .fr h5{
   margin-top: 20px;
   width: 100%;
   font-size: 19px;
   line-height: 20px;
 }
 
-.horizontal-box .fr h5:before {
+.crm-box .fr h5:before {
   content: '';
   display: block;
   float: right;
@@ -240,16 +233,20 @@ header img{
   background-color: #899397;
 }
 
-.horizontal-box .fr img{
+.crm-box .fr img{
   vertical-align: top;
 }
 
-.columns-container{
+/* ------------------------------------ */
+
+.mss-section{
   padding-top: 80px;
 }
 
-.second-column{
-  margin: 0 75px;
+.column{
+  padding: 20px 40px;
+  width: 350px;
+  text-align: center;
 }
 
 .column h4{
@@ -265,12 +262,12 @@ header img{
   margin-bottom: 40px;
 }
 
-.popolar-feature{
-  text-align: left;
-}
-
 .column img{
   vertical-align: top;
+}
+
+.popolar-feature{
+  text-align: left;
 }
 
 .learn{
@@ -278,18 +275,24 @@ header img{
   text-align: center;
 }
 
-.gradient-container{
+.sales-section{
+  margin: 0 75px;
+}
+
+/* ------------------------------------ */
+
+.main-section-three{
   background: linear-gradient(45deg, #00a4bc, #00bca5);
   padding: 60px 0 120px 0;
 }
 
-.gradient-container .container:first-child{
+.main-section-three .container:first-child{
   text-align: center;
   padding-bottom: 60px;
   color: #fff;
 }
 
-.gradient-container .container:first-child h3{
+.main-section-three .container:first-child h3{
   padding: 0 100px 40px 100px;
   font-size: 30px;
 }
@@ -309,70 +312,71 @@ header img{
   font-weight: lighter;
 }
 
-.white-container{
+/* ------------------------------------ */
+
+.main-section-four{
   background-color: #fff;
   padding: 50px 0;
 }
 
-.white-container .container:first-child .fl{
+.main-section-four .container:first-child .fl{
   width: 35%;
   padding: 20px 0 0 60px;
 }
 
-.white-container .container:first-child .fl h2{
+.main-section-four .container:first-child .fl h2{
   font-size: 50px;
   padding-left: 10px;
   padding-bottom: 30px;
 }
 
-.white-container .container:first-child .fr{
+.main-section-four .container:first-child .fr{
   width: 65%;
   padding-top: 20px;
 }
 
-.white-container .container:first-child .fr img{
+.main-section-four .container:first-child .fr img{
   width: 160px;
   margin-bottom: 30px;
   padding-left: 20px;
   vertical-align: middle;
 }
 
-.white-container .container:last-child{
+.main-section-four .container:last-child{
   margin-top: 50px;
 }
 
-.white-container .container:last-child .fl{
+.main-section-four .container:last-child .fl{
   width: 500px;
   margin-top: 70px;
 }
 
-.white-container .container:last-child h3{
+.main-section-four .container:last-child h3{
   font-size: 33px;
 }
 
-.white-container .container:last-child h3{
+.main-section-four .container:last-child h3{
   padding-bottom: 50px;
 }
 
-.white-container .container:last-child p{
+.main-section-four .container:last-child p{
   padding-bottom: 60px;
 }
 
-.white-container .container:last-child .fl div{
+.main-section-four .container:last-child .fl div{
   padding-top: 30px;
 }
 
-.white-container .container:last-child .fl div{
+.main-section-four .container:last-child .fl div{
   margin-top: 30px;
 }
 
-.white-container .container:last-child img{
+.main-section-four .container:last-child img{
   height: 350px;
   margin-right: 50px;
 }
-/* /main */
 
-/* footer */
+/* Footer Classes */
 footer .big-container{
   background: #33475b;
   padding: 50px 0;
@@ -433,4 +437,3 @@ footer .container:last-child .fl a{
 footer .fr a{
   padding-left: 20px;
 }
-/* /footer */
